@@ -16,25 +16,16 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+I developed an application to represent data from NASA, showcasing Near-Earth Objects (NEOs). The application provides two display modes: a chart and a table.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Due to the daily API rate limit in the NASA system, I collected a sample of the main API data and stored it in a JSON file for use.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Here are some screenshots of the App:
 
-## Learn More
+![Screenshot 2024-11-11 061343](https://github.com/user-attachments/assets/f39d5aa5-4ee3-4790-b6e7-3073c6116139)
 
-To learn more about Next.js, take a look at the following resources:
+![Screenshot 2024-11-11 061400](https://github.com/user-attachments/assets/b4294688-6675-42d4-aa14-2d6e1428fdfb)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+![Screenshot 2024-11-11 061412](https://github.com/user-attachments/assets/baf619ca-c93a-4cf5-9773-a34e7364b9ad)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
